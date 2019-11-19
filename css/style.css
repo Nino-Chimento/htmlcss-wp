@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.container {
+  width:50%;
+  margin:auto;
+}
+
+
+body{
+  background-color: #927f68;
+}
+
+
+.logo {
+position: relative;
+background-image: url(../img/bosco.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 300px;
+}
+
+.natural {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+  color: white;
+  border: 4px solid white;
+}
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: grey;
+}
+ul{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 58px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  height: 55px;
+}
+li:hover {
+  background-color: #48545a;
+  border-bottom: 2px solid #292116;
+}
+
+li {
+  display: inline-block;
+  margin:0 20px;
+
+
+}
+main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.colonna {
+  float:left;
+  border-radius: 6px;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+}
+p {
+  margin: 2px;
+}
+
+
+.left {
+  width: 20%
+}
+.center {
+  width: 56%;
+  margin:0 2%;
+}
+.right {
+  width: 20%
+}
+.widget {
+  margin: 20px 0;
+}
+.bottom{
+
+  width: 100%;
+}
+footer {
+  background-color: white;
+  margin:10px;
+  border-radius: 6px;
+}
+.bottom {
+  border-top: 2px solid grey;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.produttore {
+  text-align: center;
+}
+i {
+  font-size: 40px;
+}
+.fa-facebook-square {
+  position: absolute;
+  top:50%;
+  left:20%;
+  transform: translateY(-50%);
+}
+.fa-instagram{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.fa-github {
+  position: absolute;
+  top:50%;
+  left:80%;
+  transform: translateY(-50%);
+}
