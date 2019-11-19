@@ -81,9 +81,10 @@ main:after{
 }
 .colonna {
   float:left;
+  margin-top: 10px;
   border-radius: 6px;
-  background-color: white;
   padding: 5px;
+  background-color: white;
 }
 
 
@@ -117,24 +118,39 @@ main:after{
 }
 
 .center {
-  width: 56%;
-  margin:0 2%;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .center h3 {
   text-transform: uppercase;
   text-shadow: 2px 1px #9B8A73;
   margin-top: 8px;
 }
-  .center p{
+   p{
     margin-top: 20px;
     line-height: 25px;
     padding: 5px;
+    text-align: center;
   }
 .right {
-  width: 20%
+  width: 20%;
+  float:left;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 5px;
 }
-.widget {
-  margin: 20px 0;
+.widget h2{
+  text-align: center;
+  margin-top: 8px;
+}
+.widget{
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px;
+}
+
 }
 .bottom{
 
