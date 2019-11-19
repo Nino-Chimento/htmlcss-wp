@@ -83,6 +83,7 @@ main:after{
   float:left;
   border-radius: 6px;
   background-color: white;
+  padding: 5px;
 }
 
 
@@ -96,6 +97,7 @@ main:after{
 .title {
   float: left;
   width: 60%;
+  font-weight: bolder;
 }
 .fas  {
   float: left;
@@ -118,6 +120,16 @@ main:after{
   width: 56%;
   margin:0 2%;
 }
+.center h3 {
+  text-transform: uppercase;
+  text-shadow: 2px 1px #9B8A73;
+  margin-top: 8px;
+}
+  .center p{
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 5px;
+  }
 .right {
   width: 20%
 }
